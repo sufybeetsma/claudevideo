@@ -1,0 +1,4 @@
+node_modules/
+public/clips/
+out/*.png
+.DS_Store
