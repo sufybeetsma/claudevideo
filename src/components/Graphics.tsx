@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import timeline from '../data/timeline.json';
-import {at, C, FONT, SAFE, SAFE_CX, SAFE_W} from '../theme';
+import {at, C, extrude, FONT, SAFE, SAFE_CX, SAFE_W} from '../theme';
 import {Arrow, Card, Check, Chip, Cross, DrawLine, Pop} from './primitives';
 
 const clip = (id: number) => {
@@ -21,8 +21,9 @@ const band: React.CSSProperties = {
   alignItems: 'center',
   gap: 16,
 };
-const H = (size: number, color: string = C.white): React.CSSProperties => ({
+const H = (size: number, color: string = C.ink, depth = 0): React.CSSProperties => ({
   fontFamily: FONT,
+  textShadow: depth ? extrude(color === C.cream ? C.maroonDark : color === C.maroon ? C.maroonDark : C.creamEdge, depth, false) : undefined,
   fontWeight: 900,
   fontSize: size,
   lineHeight: 1.02,
@@ -100,13 +101,13 @@ const Hook: React.FC = () => {
   return (
     <>
       <Pop from={T.c1.start + 2} to={T.hook} style={band}>
-        <Chip color={C.red} textColor={C.white}>Insider tip</Chip>
+        <Chip>Insider tip</Chip>
       </Pop>
       <Pop from={T.hook} to={T.c1.end} style={band}>
         <Card style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '26px 40px'}}>
-          <div style={H(124, C.yellow)}>3 numbers</div>
-          <div style={{height: 10, width: `${u * 100}%`, background: C.yellow, borderRadius: 8, margin: '10px 0 14px'}} />
-          <div style={H(46)}>I check before my clients upgrade</div>
+          <div style={H(124, C.maroon, 7)}>3 numbers</div>
+          <div style={{height: 10, width: `${u * 100}%`, background: C.maroon, borderRadius: 8, boxShadow: `0 4px 0 ${C.maroonDark}`, margin: '10px 0 14px'}} />
+          <div style={H(46, C.grey)}>I check before my clients upgrade</div>
         </Card>
       </Pop>
     </>
@@ -121,7 +122,7 @@ const EquityBars: React.FC<{from: number}> = ({from}) => {
     <div style={{display: 'flex', alignItems: 'flex-end', gap: 12, height: 124}}>
       {hs.map((h, i) => {
         const s = spring({frame: frame - from - 4 - i * 4, fps, config: {damping: 12}});
-        return <div key={i} style={{width: 34, height: h * s, borderRadius: 8, background: i === 3 ? C.green : 'rgba(255,255,255,0.75)'}} />;
+        return <div key={i} style={{width: 34, height: h * s, borderRadius: 8, background: i === 3 ? C.maroon : C.grey, boxShadow: `6px 0 0 ${i === 3 ? C.maroonDark : '#3E383B'}`}} />;
       })}
     </div>
   );
@@ -132,9 +133,9 @@ const HdbEquity: React.FC = () => (
     <Card style={{display: 'flex', alignItems: 'center', gap: 30}}>
       <EquityBars from={T.hdb} />
       <div>
-        <div style={{...H(40), textAlign: 'left', opacity: 0.85}}>HDB</div>
-        <div style={{...H(72, C.green), textAlign: 'left'}}>Equity</div>
-        <div style={{...H(34), textAlign: 'left', opacity: 0.85}}>already built up</div>
+        <div style={{...H(40, C.grey), textAlign: 'left'}}>HDB</div>
+        <div style={{...H(72, C.maroon, 5), textAlign: 'left'}}>Equity</div>
+        <div style={{...H(34, C.grey), textAlign: 'left'}}>already built up</div>
       </div>
     </Card>
   </Pop>
@@ -149,7 +150,7 @@ const WrongQuestion: React.FC = () => (
       </div>
     </Card>
     <Pop from={T.afford} to={T.c3.end} dir="none">
-      <Chip color={C.red} textColor={C.white}>
+      <Chip>
         <Cross size={36} /> Wrong question
       </Chip>
     </Pop>
@@ -158,21 +159,22 @@ const WrongQuestion: React.FC = () => (
 
 const ThreeChecks: React.FC = () => (
   <Pop from={T.three4 - 4} to={T.c4.end} style={band}>
-    <div style={H(84, C.yellow)}>3 checks</div>
+    <div style={H(96, C.cream, 7)}>3 checks</div>
     <div style={{display: 'flex', gap: 30}}>
       {[1, 2, 3].map((n, i) => (
         <Pop key={n} from={T.three4 + i * 5} to={T.c4.end} dir="none">
           <div
             style={{
-              ...H(76, C.ink),
+              ...H(76, C.cream, 4),
               width: 128,
               height: 128,
               borderRadius: 64,
-              background: C.white,
+              background: `radial-gradient(circle at 35% 30%, #C25A88, ${C.maroon} 60%)`,
+              border: `4px solid ${C.cream}`,
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              boxShadow: '0 12px 30px rgba(0,0,0,0.4)',
+              boxShadow: `0 10px 0 ${C.maroonDark}, 0 24px 34px rgba(0,0,0,0.45)`,
             }}
           >
             {n}
@@ -199,9 +201,9 @@ const Tracker: React.FC<{active: number}> = ({active}) => (
           fontWeight: 900,
           fontSize: 32,
           textTransform: 'uppercase',
-          background: i === active ? C.yellow : 'rgba(14,15,20,0.75)',
-          color: i === active ? C.ink : i < active ? C.green : 'rgba(255,255,255,0.6)',
-          border: '2px solid rgba(255,255,255,0.12)',
+          background: i === active ? C.maroon : C.cream,
+          color: i === active ? C.cream : i < active ? C.maroon : C.grey,
+          boxShadow: `0 6px 0 ${i === active ? C.maroonDark : C.creamEdge}, 0 14px 22px rgba(0,0,0,0.35)`,
         }}
       >
         {i < active ? <Check size={28} /> : <span>{i + 1}</span>}
@@ -221,14 +223,14 @@ const Step: React.FC<{
     <Tracker active={n - 1} />
     <Pop from={range.start} to={range.end} dir="left">
       <Card style={{display: 'flex', alignItems: 'center', gap: 22, padding: '16px 32px'}}>
-        <div style={H(78, C.yellow)}>0{n}</div>
+        <div style={H(78, C.maroon, 5)}>0{n}</div>
         <div style={H(54)}>{title}</div>
       </Card>
     </Pop>
     <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 12}}>
       {chips.map((c) => (
         <Pop key={c.label} from={c.from} to={range.end}>
-          <Chip color={c.color} textColor={c.text ?? C.ink}>
+          <Chip color={c.color} textColor={c.text ?? C.cream}>
             {c.label}
           </Chip>
         </Pop>
@@ -247,9 +249,9 @@ const Checks: React.FC = () => {
         title="Usable equity"
         range={T.c5}
         chips={[
-          {from: T.loan, label: '– Loan', color: C.white},
-          {from: T.cpf, label: '– CPF refund', color: C.white},
-          {from: T.selling, label: '– Selling costs', color: C.white},
+          {from: T.loan, label: '– Loan', color: C.grey},
+          {from: T.cpf, label: '– CPF refund', color: C.grey},
+          {from: T.selling, label: '– Selling costs', color: C.grey},
         ]}
       />
     );
@@ -260,8 +262,8 @@ const Checks: React.FC = () => {
         title="Monthly comfort"
         range={T.c6}
         chips={[
-          {from: T.monthly, label: 'Sustainable commitment', color: C.white},
-          {from: T.buffer, label: '+ Healthy buffer', color: C.green},
+          {from: T.monthly, label: 'Sustainable commitment', color: C.grey},
+          {from: T.buffer, label: '+ Healthy buffer', color: C.maroon},
         ]}
       />
     );
@@ -271,8 +273,8 @@ const Checks: React.FC = () => {
       title="Exit potential"
       range={T.c7}
       chips={[
-        {from: T.exit7, label: 'Value at exit', color: C.white},
-        {from: T.worth, label: 'Worth the move?', color: C.yellow},
+        {from: T.exit7, label: 'Value at exit', color: C.grey},
+        {from: T.worth, label: 'Worth the move?', color: C.maroon},
       ]}
     />
   );
@@ -283,12 +285,12 @@ const NumbersFirst: React.FC = () => (
     <Card style={{display: 'flex', flexDirection: 'column', gap: 14}}>
       <div style={{display: 'flex', alignItems: 'center', gap: 18}}>
         <Check size={60} />
-        <div style={H(60, C.green)}>Numbers first</div>
+        <div style={H(60, C.maroon, 5)}>Numbers first</div>
       </div>
       <Pop from={T.props8} to={T.c8.end} dir="left">
         <div style={{display: 'flex', alignItems: 'center', gap: 18}}>
           <Arrow size={60} />
-          <div style={H(60)}>Then properties</div>
+          <div style={H(60, C.grey, 4)}>Then properties</div>
         </div>
       </Pop>
     </Card>
@@ -301,8 +303,8 @@ const Row: React.FC<{from: number; label: string; tick: number}> = ({from, label
   return (
     <Pop from={from} to={T.c9.end} dir="left">
       <div style={{display: 'flex', alignItems: 'center', gap: 20, padding: '8px 0'}}>
-        <Check size={50} progress={p} color={p > 0 ? C.green : 'rgba(255,255,255,0.25)'} />
-        <div style={{...H(46), textAlign: 'left'}}>{label}</div>
+        <Check size={50} progress={p} color={p > 0 ? C.maroon : C.creamEdge} />
+        <div style={{...H(44, C.ink), textAlign: 'left'}}>{label}</div>
       </div>
     </Pop>
   );
@@ -317,7 +319,7 @@ const Panel: React.FC<{title: string; titleColor: string; from: number; to: numb
 }) => (
   <Pop from={from} to={to} style={{position: 'absolute', left: SAFE.left + 30, width: SAFE_W - 60, top: TOP + 60}}>
     <Card style={{padding: '30px 38px'}}>
-      <div style={{...H(56, titleColor), textAlign: 'left', marginBottom: 12}}>{title}</div>
+      <div style={{...H(56, titleColor, 5), textAlign: 'left', marginBottom: 12}}>{title}</div>
       {rows.map((r) => (
         <Row key={r.label} from={r.at - 3} tick={r.at} label={r.label} />
       ))}
@@ -329,7 +331,7 @@ const Compared: React.FC = () => (
   <>
     <Panel
       title="What we compared"
-      titleColor={C.yellow}
+      titleColor={C.maroon}
       from={T.c9.start}
       to={T.eventually}
       rows={[
@@ -341,7 +343,7 @@ const Compared: React.FC = () => (
     />
     <Panel
       title="The one we found"
-      titleColor={C.green}
+      titleColor={C.maroon}
       from={T.eventually}
       to={T.c9.end}
       rows={[
@@ -357,18 +359,18 @@ const NotJustCondo: React.FC = () => (
   <>
     <Pop from={T.hdb10} to={T.its10} style={band}>
       <Card style={{display: 'flex', alignItems: 'center', gap: 26, position: 'relative'}}>
-        <div style={H(76)}>HDB</div>
+        <div style={H(76, C.grey, 5)}>HDB</div>
         <Arrow size={70} />
-        <div style={H(76)}>Condo</div>
+        <div style={H(76, C.grey, 5)}>Condo</div>
         <DrawLine from={T.condo10 - 2} thickness={12} />
       </Card>
     </Pop>
     <Pop from={T.equity10 - 4} to={T.c10.end} style={band}>
       <Card style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6}}>
-        <div style={H(46)}>Make your</div>
-        <div style={H(92, C.green)}>Equity</div>
+        <div style={H(46, C.grey)}>Make your</div>
+        <div style={H(92, C.maroon, 7)}>Equity</div>
         <Pop from={T.harder - 2} to={T.c10.end} dir="none">
-          <div style={{...H(64, C.ink), background: C.yellow, padding: '4px 22px', borderRadius: 12}}>Work harder</div>
+          <div style={{...H(64, C.cream, 3), background: C.maroon, padding: '6px 24px', borderRadius: 14, boxShadow: `0 8px 0 ${C.maroonDark}, 0 18px 26px rgba(0,0,0,0.4)`}}>Work harder</div>
         </Pop>
       </Card>
     </Pop>
@@ -381,10 +383,10 @@ const DoneItsJob: React.FC = () => {
   return (
     <Pop from={T.hdb11 - 2} to={T.c11.end} style={band}>
       <Card style={{display: 'flex', alignItems: 'center', gap: 24}}>
-        <div style={{...H(140, C.yellow), transform: `translateY(${bob}px) rotate(${bob}deg)`}}>?</div>
+        <div style={{...H(140, C.maroon, 8), transform: `translateY(${bob}px) rotate(${bob}deg)`}}>?</div>
         <div>
-          <div style={{...H(44), textAlign: 'left'}}>Has your HDB</div>
-          <div style={{...H(64, C.green), textAlign: 'left'}}>done its job?</div>
+          <div style={{...H(44, C.grey), textAlign: 'left'}}>Has your HDB</div>
+          <div style={{...H(64, C.maroon, 5), textAlign: 'left'}}>done its job?</div>
         </div>
       </Card>
     </Pop>
@@ -398,19 +400,19 @@ const CTA: React.FC = () => {
     <Pop from={T.dm} to={T.c12.end + 1} style={band}>
       <div
         style={{
-          ...H(84, C.ink),
-          background: C.yellow,
+          ...H(84, C.cream, 5),
+          background: `linear-gradient(180deg, #B4537F 0%, ${C.maroon} 55%)`,
           padding: '24px 48px',
           borderRadius: 999,
-          transform: `scale(${pulse})`,
-          boxShadow: '0 0 0 10px rgba(255,216,77,0.35), 0 20px 50px rgba(0,0,0,0.5)',
+          transform: `scale(${pulse}) rotateX(${8 * Math.sin((frame - T.dm) / 9)}deg)`,
+          boxShadow: `0 12px 0 ${C.maroonDark}, 0 0 0 10px rgba(243,240,236,0.35), 0 34px 50px rgba(0,0,0,0.5)`,
         }}
       >
         DM me “HOME”
       </div>
       <Pop from={T.send} to={T.c12.end + 1}>
         <Card style={{padding: '14px 30px'}}>
-          <div style={H(38)}>Get my exact 3-number checklist</div>
+          <div style={H(38, C.maroon)}>Get my exact 3-number checklist</div>
         </Card>
       </Pop>
     </Pop>

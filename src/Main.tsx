@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, interpolate, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, interpolate, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import timeline from './data/timeline.json';
 import {Captions} from './components/Captions';
 import {Graphics} from './components/Graphics';
@@ -38,14 +38,27 @@ const ARoll: React.FC<{src: string; from: number; dur: number; zoom: number}> = 
 
 const BRoll: React.FC<{src: string; dur: number}> = ({src, dur}) => {
   const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
   const scale = interpolate(frame, [0, dur], [1.04, 1.12]);
-  const flash = interpolate(frame, [0, 5], [0.7, 0], {extrapolateRight: 'clamp'});
+  const flash = interpolate(frame, [0, 5], [0.35, 0], {extrapolateRight: 'clamp'});
+  // 3D swing-in: the new shot rotates in on its Y axis like a turning panel
+  const swing = 1 - spring({frame, fps, config: {damping: 15, stiffness: 120}});
   return (
-    <AbsoluteFill style={{overflow: 'hidden'}}>
-      <OffthreadVideo muted src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${scale})`}} />
+    <AbsoluteFill style={{overflow: 'hidden', perspective: 1400}}>
+      <OffthreadVideo
+        muted
+        src={staticFile(src)}
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          transformOrigin: '0% 50%',
+          transform: `rotateY(${-55 * swing}deg) scale(${scale + 0.25 * swing})`,
+        }}
+      />
       {/* subtle darkening so the checklist panel reads well */}
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.25) 100%)'}} />
-      <AbsoluteFill style={{background: '#fff', opacity: flash}} />
+      <AbsoluteFill style={{background: '#F3F0EC', opacity: flash}} />
     </AbsoluteFill>
   );
 };
@@ -53,7 +66,7 @@ const BRoll: React.FC<{src: string; dur: number}> = ({src, dur}) => {
 /** Hard-cut flash between A-roll clips. */
 const CutFlash: React.FC = () => {
   const frame = useCurrentFrame();
-  return <AbsoluteFill style={{background: '#fff', opacity: interpolate(frame, [0, 3], [0.18, 0], {extrapolateRight: 'clamp'})}} />;
+  return <AbsoluteFill style={{background: '#F3F0EC', opacity: interpolate(frame, [0, 3], [0.18, 0], {extrapolateRight: 'clamp'})}} />;
 };
 
 export const Main: React.FC<{showSafeZone: boolean}> = ({showSafeZone}) => (
@@ -72,6 +85,18 @@ export const Main: React.FC<{showSafeZone: boolean}> = ({showSafeZone}) => (
     <Graphics />
     <Captions />
     <Sfx />
+    {/* Background music bed: sits under the voice, swells slightly on the B-roll and the outro */}
+    <Audio
+      src={staticFile('music/bed.mp3')}
+      volume={(f) => {
+        const vo = timeline.aroll.find((c) => c.voiceover)!;
+        const end = timeline.total;
+        const base = 0.11;
+        const brollLift = f >= vo.from && f < vo.from + vo.dur ? 0.02 : 0;
+        const outro = interpolate(f, [end - 45, end - 1], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+        return (base + brollLift) * outro;
+      }}
+    />
     {showSafeZone ? <SafeZone /> : null}
   </AbsoluteFill>
 );
