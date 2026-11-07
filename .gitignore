@@ -3,3 +3,4 @@ public/clips/
 out/*.png
 .DS_Store
 out/final.mp4
+out/edited.mp4
