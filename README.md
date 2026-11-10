@@ -48,3 +48,19 @@ Render the `SafeZonePreview` composition to see these areas shaded over the edit
 | 12 | Pulsing **DM me "HOME"** call to action |
 
 Captions highlight each word as it's spoken (yellow), and keywords are shown in green.
+
+## HyperFrames version
+
+`hyperframes/` holds the same edit rebuilt with [HyperFrames](https://hyperframes.heygen.com) (HTML + GSAP → MP4).
+It's generated from the same edit data as the Remotion version, so the cut, captions, brand colours, 3D graphics,
+music and sound effects all match.
+
+```bash
+python3 scripts/build_hyperframes.py      # regenerate hyperframes/index.html from src/data/*.json
+mkdir -p hyperframes/assets/clips && cp public/clips/*.mp4 hyperframes/assets/clips/   # after scripts/prep.sh
+cd hyperframes
+npx --yes hyperframes@0.9.29 check          # lint, runtime, layout and contrast checks
+npx --yes hyperframes@0.9.29 render -o "renders/video 1 edited.mp4" --quality delivery
+```
+
+Edit `scripts/build_hyperframes.py`, not the generated `index.html`.

@@ -4,3 +4,7 @@ out/*.png
 .DS_Store
 out/final.mp4
 out/video 1 edited.mp4
+hyperframes/assets/clips/
+hyperframes/renders/
+hyperframes/node_modules/
+hyperframes/.hyperframes/

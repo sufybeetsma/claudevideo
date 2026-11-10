@@ -1,0 +1,11 @@
+{
+  "name": "video-1-hyperframes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 ../scripts/build_hyperframes.py",
+    "dev": "npx --yes hyperframes@0.9.29 preview",
+    "check": "npx --yes hyperframes@0.9.29 check",
+    "render": "npx --yes hyperframes@0.9.29 render -o renders/video-1-edited.mp4"
+  }
+}
