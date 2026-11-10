@@ -340,24 +340,24 @@
    "clip": 4,
    "i": 0,
    "text": "So,",
-   "start": 326,
-   "end": 336,
+   "start": 329,
+   "end": 340,
    "key": false
   },
   {
    "clip": 4,
    "i": 1,
    "text": "I",
-   "start": 345,
-   "end": 350,
+   "start": 340,
+   "end": 344,
    "key": false
   },
   {
    "clip": 4,
    "i": 2,
    "text": "check",
-   "start": 350,
-   "end": 359,
+   "start": 345,
+   "end": 355,
    "key": false
   },
   {
@@ -365,1183 +365,1183 @@
    "i": 3,
    "text": "three",
    "start": 359,
-   "end": 372,
+   "end": 362,
    "key": true
   },
   {
    "clip": 4,
    "i": 4,
    "text": "things.",
-   "start": 372,
-   "end": 382,
+   "start": 363,
+   "end": 377,
    "key": false
   },
   {
    "clip": 5,
    "i": 0,
    "text": "First,",
-   "start": 391,
-   "end": 399,
+   "start": 379,
+   "end": 387,
    "key": true
   },
   {
    "clip": 5,
    "i": 1,
    "text": "how",
-   "start": 407,
-   "end": 410,
+   "start": 395,
+   "end": 398,
    "key": false
   },
   {
    "clip": 5,
    "i": 2,
    "text": "much",
-   "start": 410,
-   "end": 417,
+   "start": 398,
+   "end": 405,
    "key": false
   },
   {
    "clip": 5,
    "i": 3,
    "text": "usable",
-   "start": 417,
-   "end": 425,
+   "start": 405,
+   "end": 413,
    "key": true
   },
   {
    "clip": 5,
    "i": 4,
    "text": "equity",
-   "start": 425,
-   "end": 436,
+   "start": 413,
+   "end": 424,
    "key": true
   },
   {
    "clip": 5,
    "i": 5,
    "text": "can",
-   "start": 436,
-   "end": 444,
+   "start": 424,
+   "end": 432,
    "key": false
   },
   {
    "clip": 5,
    "i": 6,
    "text": "they",
-   "start": 444,
-   "end": 447,
+   "start": 432,
+   "end": 435,
    "key": false
   },
   {
    "clip": 5,
    "i": 7,
    "text": "unlock",
-   "start": 447,
-   "end": 456,
+   "start": 435,
+   "end": 444,
    "key": false
   },
   {
    "clip": 5,
    "i": 8,
    "text": "after",
-   "start": 456,
-   "end": 471,
+   "start": 444,
+   "end": 459,
    "key": false
   },
   {
    "clip": 5,
    "i": 9,
    "text": "the",
-   "start": 471,
-   "end": 477,
+   "start": 459,
+   "end": 465,
    "key": false
   },
   {
    "clip": 5,
    "i": 10,
    "text": "loan,",
-   "start": 477,
-   "end": 486,
+   "start": 465,
+   "end": 474,
    "key": false
   },
   {
    "clip": 5,
    "i": 11,
    "text": "CPF",
-   "start": 498,
-   "end": 511,
+   "start": 486,
+   "end": 499,
    "key": true
   },
   {
    "clip": 5,
    "i": 12,
    "text": "refund",
-   "start": 511,
-   "end": 525,
+   "start": 499,
+   "end": 513,
    "key": true
   },
   {
    "clip": 5,
    "i": 13,
    "text": "and",
-   "start": 525,
-   "end": 536,
+   "start": 513,
+   "end": 524,
    "key": false
   },
   {
    "clip": 5,
    "i": 14,
    "text": "selling",
-   "start": 536,
-   "end": 548,
+   "start": 524,
+   "end": 536,
    "key": false
   },
   {
    "clip": 5,
    "i": 15,
    "text": "costs?",
-   "start": 548,
-   "end": 557,
+   "start": 536,
+   "end": 545,
    "key": false
   },
   {
    "clip": 6,
    "i": 0,
    "text": "Second,",
-   "start": 567,
-   "end": 579,
+   "start": 555,
+   "end": 567,
    "key": true
   },
   {
    "clip": 6,
    "i": 1,
    "text": "what",
-   "start": 586,
-   "end": 589,
+   "start": 574,
+   "end": 577,
    "key": false
   },
   {
    "clip": 6,
    "i": 2,
    "text": "monthly",
-   "start": 588,
-   "end": 597,
+   "start": 576,
+   "end": 585,
    "key": true
   },
   {
    "clip": 6,
    "i": 3,
    "text": "commitment",
-   "start": 597,
-   "end": 609,
+   "start": 585,
+   "end": 597,
    "key": false
   },
   {
    "clip": 6,
    "i": 4,
    "text": "could",
-   "start": 609,
-   "end": 617,
+   "start": 597,
+   "end": 605,
    "key": false
   },
   {
    "clip": 6,
    "i": 5,
    "text": "they",
-   "start": 617,
-   "end": 620,
+   "start": 605,
+   "end": 608,
    "key": false
   },
   {
    "clip": 6,
    "i": 6,
    "text": "comfortably",
-   "start": 620,
-   "end": 632,
+   "start": 608,
+   "end": 620,
    "key": false
   },
   {
    "clip": 6,
    "i": 7,
    "text": "sustain",
-   "start": 632,
-   "end": 647,
+   "start": 620,
+   "end": 635,
    "key": false
   },
   {
    "clip": 6,
    "i": 8,
    "text": "while",
-   "start": 647,
-   "end": 656,
+   "start": 635,
+   "end": 644,
    "key": false
   },
   {
    "clip": 6,
    "i": 9,
    "text": "still",
-   "start": 656,
-   "end": 665,
+   "start": 644,
+   "end": 653,
    "key": false
   },
   {
    "clip": 6,
    "i": 10,
    "text": "keeping",
-   "start": 665,
-   "end": 677,
+   "start": 653,
+   "end": 665,
    "key": false
   },
   {
    "clip": 6,
    "i": 11,
    "text": "a",
-   "start": 677,
-   "end": 688,
+   "start": 665,
+   "end": 676,
    "key": false
   },
   {
    "clip": 6,
    "i": 12,
    "text": "healthy",
-   "start": 688,
-   "end": 695,
+   "start": 676,
+   "end": 683,
    "key": false
   },
   {
    "clip": 6,
    "i": 13,
    "text": "buffer?",
-   "start": 695,
-   "end": 706,
+   "start": 683,
+   "end": 694,
    "key": true
   },
   {
    "clip": 7,
    "i": 0,
    "text": "Third,",
-   "start": 714,
-   "end": 728,
+   "start": 702,
+   "end": 716,
    "key": true
   },
   {
    "clip": 7,
    "i": 1,
    "text": "if",
-   "start": 742,
-   "end": 745,
+   "start": 730,
+   "end": 733,
    "key": false
   },
   {
    "clip": 7,
    "i": 2,
    "text": "they",
-   "start": 744,
-   "end": 750,
+   "start": 732,
+   "end": 738,
    "key": false
   },
   {
    "clip": 7,
    "i": 3,
    "text": "reposition,",
-   "start": 750,
-   "end": 768,
+   "start": 738,
+   "end": 756,
    "key": false
   },
   {
    "clip": 7,
    "i": 4,
    "text": "what",
-   "start": 781,
-   "end": 785,
+   "start": 769,
+   "end": 773,
    "key": false
   },
   {
    "clip": 7,
    "i": 5,
    "text": "would",
-   "start": 785,
-   "end": 789,
+   "start": 773,
+   "end": 777,
    "key": false
   },
   {
    "clip": 7,
    "i": 6,
    "text": "the",
-   "start": 789,
-   "end": 793,
+   "start": 777,
+   "end": 781,
    "key": false
   },
   {
    "clip": 7,
    "i": 7,
    "text": "next",
-   "start": 793,
-   "end": 798,
+   "start": 781,
+   "end": 786,
    "key": false
   },
   {
    "clip": 7,
    "i": 8,
    "text": "property",
-   "start": 798,
-   "end": 809,
+   "start": 786,
+   "end": 797,
    "key": false
   },
   {
    "clip": 7,
    "i": 9,
    "text": "need",
-   "start": 809,
-   "end": 819,
+   "start": 797,
+   "end": 807,
    "key": false
   },
   {
    "clip": 7,
    "i": 10,
    "text": "to",
-   "start": 819,
-   "end": 823,
+   "start": 807,
+   "end": 811,
    "key": false
   },
   {
    "clip": 7,
    "i": 11,
    "text": "achieve",
-   "start": 823,
-   "end": 831,
+   "start": 811,
+   "end": 819,
    "key": false
   },
   {
    "clip": 7,
    "i": 12,
    "text": "at",
-   "start": 831,
-   "end": 837,
+   "start": 819,
+   "end": 825,
    "key": false
   },
   {
    "clip": 7,
    "i": 13,
    "text": "exit",
-   "start": 837,
-   "end": 848,
+   "start": 825,
+   "end": 836,
    "key": true
   },
   {
    "clip": 7,
    "i": 14,
    "text": "for",
-   "start": 848,
-   "end": 864,
+   "start": 836,
+   "end": 852,
    "key": false
   },
   {
    "clip": 7,
    "i": 15,
    "text": "the",
-   "start": 864,
-   "end": 868,
+   "start": 852,
+   "end": 856,
    "key": false
   },
   {
    "clip": 7,
    "i": 16,
    "text": "move",
-   "start": 868,
-   "end": 877,
+   "start": 856,
+   "end": 865,
    "key": false
   },
   {
    "clip": 7,
    "i": 17,
    "text": "to",
-   "start": 877,
-   "end": 884,
+   "start": 865,
+   "end": 872,
    "key": false
   },
   {
    "clip": 7,
    "i": 18,
    "text": "be",
-   "start": 884,
-   "end": 889,
+   "start": 872,
+   "end": 877,
    "key": false
   },
   {
    "clip": 7,
    "i": 19,
    "text": "worthwhile?",
-   "start": 889,
-   "end": 900,
+   "start": 877,
+   "end": 888,
    "key": true
   },
   {
    "clip": 8,
    "i": 0,
    "text": "Only",
-   "start": 909,
-   "end": 918,
+   "start": 897,
+   "end": 906,
    "key": false
   },
   {
    "clip": 8,
    "i": 1,
    "text": "after",
-   "start": 918,
-   "end": 924,
+   "start": 906,
+   "end": 912,
    "key": false
   },
   {
    "clip": 8,
    "i": 2,
    "text": "those",
-   "start": 924,
-   "end": 929,
+   "start": 912,
+   "end": 917,
    "key": false
   },
   {
    "clip": 8,
    "i": 3,
    "text": "numbers",
-   "start": 929,
-   "end": 938,
+   "start": 917,
+   "end": 926,
    "key": true
   },
   {
    "clip": 8,
    "i": 4,
    "text": "worked",
-   "start": 938,
-   "end": 953,
+   "start": 926,
+   "end": 941,
    "key": false
   },
   {
    "clip": 8,
    "i": 5,
    "text": "did",
-   "start": 953,
-   "end": 963,
+   "start": 941,
+   "end": 951,
    "key": false
   },
   {
    "clip": 8,
    "i": 6,
    "text": "we",
-   "start": 963,
-   "end": 968,
+   "start": 951,
+   "end": 956,
    "key": false
   },
   {
    "clip": 8,
    "i": 7,
    "text": "start",
-   "start": 968,
-   "end": 975,
+   "start": 956,
+   "end": 963,
    "key": false
   },
   {
    "clip": 8,
    "i": 8,
    "text": "looking",
-   "start": 975,
-   "end": 983,
+   "start": 963,
+   "end": 971,
    "key": false
   },
   {
    "clip": 8,
    "i": 9,
    "text": "at",
-   "start": 983,
-   "end": 994,
+   "start": 971,
+   "end": 982,
    "key": false
   },
   {
    "clip": 8,
    "i": 10,
    "text": "properties.",
-   "start": 994,
-   "end": 1006,
+   "start": 982,
+   "end": 994,
    "key": true
   },
   {
    "clip": 9,
    "i": 0,
    "text": "Then",
-   "start": 1017,
-   "end": 1025,
+   "start": 1005,
+   "end": 1013,
    "key": false
   },
   {
    "clip": 9,
    "i": 1,
    "text": "we",
-   "start": 1025,
-   "end": 1030,
+   "start": 1013,
+   "end": 1018,
    "key": false
   },
   {
    "clip": 9,
    "i": 2,
    "text": "compared",
+   "start": 1018,
+   "end": 1030,
+   "key": false
+  },
+  {
+   "clip": 9,
+   "i": 3,
+   "text": "entry",
    "start": 1030,
    "end": 1042,
    "key": false
   },
   {
    "clip": 9,
-   "i": 3,
-   "text": "entry",
-   "start": 1042,
-   "end": 1054,
-   "key": false
-  },
-  {
-   "clip": 9,
    "i": 4,
    "text": "prices,",
-   "start": 1054,
-   "end": 1069,
+   "start": 1042,
+   "end": 1057,
    "key": false
   },
   {
    "clip": 9,
    "i": 5,
    "text": "surrounding",
-   "start": 1079,
-   "end": 1090,
+   "start": 1067,
+   "end": 1078,
    "key": false
   },
   {
    "clip": 9,
    "i": 6,
    "text": "transactions,",
-   "start": 1090,
-   "end": 1108,
+   "start": 1078,
+   "end": 1096,
    "key": false
   },
   {
    "clip": 9,
    "i": 7,
    "text": "unit-specific",
-   "start": 1121,
-   "end": 1138,
+   "start": 1109,
+   "end": 1126,
    "key": false
   },
   {
    "clip": 9,
    "i": 8,
    "text": "factors",
-   "start": 1138,
-   "end": 1157,
+   "start": 1126,
+   "end": 1145,
    "key": false
   },
   {
    "clip": 9,
    "i": 9,
    "text": "and",
-   "start": 1157,
-   "end": 1180,
+   "start": 1145,
+   "end": 1168,
    "key": false
   },
   {
    "clip": 9,
    "i": 10,
    "text": "future",
-   "start": 1180,
-   "end": 1190,
+   "start": 1168,
+   "end": 1178,
    "key": false
   },
   {
    "clip": 9,
    "i": 11,
    "text": "exit",
-   "start": 1190,
-   "end": 1199,
+   "start": 1178,
+   "end": 1187,
    "key": true
   },
   {
    "clip": 9,
    "i": 12,
    "text": "potential.",
-   "start": 1199,
-   "end": 1212,
+   "start": 1187,
+   "end": 1200,
    "key": false
   },
   {
    "clip": 9,
    "i": 13,
    "text": "Eventually,",
-   "start": 1240,
-   "end": 1253,
+   "start": 1228,
+   "end": 1241,
    "key": false
   },
   {
    "clip": 9,
    "i": 14,
    "text": "we",
-   "start": 1265,
-   "end": 1274,
+   "start": 1253,
+   "end": 1262,
    "key": false
   },
   {
    "clip": 9,
    "i": 15,
    "text": "found",
-   "start": 1274,
-   "end": 1282,
+   "start": 1262,
+   "end": 1270,
    "key": false
   },
   {
    "clip": 9,
    "i": 16,
    "text": "one",
-   "start": 1282,
-   "end": 1289,
+   "start": 1270,
+   "end": 1277,
    "key": false
   },
   {
    "clip": 9,
    "i": 17,
    "text": "where",
-   "start": 1289,
-   "end": 1297,
+   "start": 1277,
+   "end": 1285,
    "key": false
   },
   {
    "clip": 9,
    "i": 18,
    "text": "the",
-   "start": 1297,
-   "end": 1300,
+   "start": 1285,
+   "end": 1288,
    "key": false
   },
   {
    "clip": 9,
    "i": 19,
    "text": "entry",
-   "start": 1300,
-   "end": 1310,
+   "start": 1288,
+   "end": 1298,
    "key": false
   },
   {
    "clip": 9,
    "i": 20,
    "text": "made",
-   "start": 1310,
-   "end": 1319,
+   "start": 1298,
+   "end": 1307,
    "key": false
   },
   {
    "clip": 9,
    "i": 21,
    "text": "sense.",
-   "start": 1319,
-   "end": 1328,
+   "start": 1307,
+   "end": 1316,
    "key": false
   },
   {
    "clip": 9,
    "i": 22,
    "text": "The",
-   "start": 1342,
-   "end": 1345,
+   "start": 1330,
+   "end": 1333,
    "key": false
   },
   {
    "clip": 9,
    "i": 23,
    "text": "growth",
-   "start": 1345,
-   "end": 1354,
+   "start": 1333,
+   "end": 1342,
    "key": true
   },
   {
    "clip": 9,
    "i": 24,
    "text": "drivers",
-   "start": 1354,
-   "end": 1364,
+   "start": 1342,
+   "end": 1352,
    "key": false
   },
   {
    "clip": 9,
    "i": 25,
    "text": "were",
-   "start": 1364,
-   "end": 1371,
+   "start": 1352,
+   "end": 1359,
    "key": false
   },
   {
    "clip": 9,
    "i": 26,
    "text": "clear",
-   "start": 1371,
-   "end": 1379,
+   "start": 1359,
+   "end": 1367,
    "key": false
   },
   {
    "clip": 9,
    "i": 27,
    "text": "and",
-   "start": 1379,
-   "end": 1396,
+   "start": 1367,
+   "end": 1384,
    "key": false
   },
   {
    "clip": 9,
    "i": 28,
    "text": "the",
-   "start": 1396,
-   "end": 1401,
+   "start": 1384,
+   "end": 1389,
    "key": false
   },
   {
    "clip": 9,
    "i": 29,
    "text": "financing",
-   "start": 1401,
-   "end": 1413,
+   "start": 1389,
+   "end": 1401,
    "key": false
   },
   {
    "clip": 9,
    "i": 30,
    "text": "still",
-   "start": 1413,
-   "end": 1427,
+   "start": 1401,
+   "end": 1415,
    "key": false
   },
   {
    "clip": 9,
    "i": 31,
    "text": "remained",
-   "start": 1427,
-   "end": 1440,
+   "start": 1415,
+   "end": 1428,
    "key": false
   },
   {
    "clip": 9,
    "i": 32,
    "text": "comfortable.",
-   "start": 1440,
-   "end": 1454,
+   "start": 1428,
+   "end": 1442,
    "key": true
   },
   {
    "clip": 10,
    "i": 0,
    "text": "That's",
-   "start": 1473,
-   "end": 1481,
+   "start": 1461,
+   "end": 1469,
    "key": false
   },
   {
    "clip": 10,
    "i": 1,
    "text": "why",
-   "start": 1481,
-   "end": 1484,
+   "start": 1469,
+   "end": 1472,
    "key": false
   },
   {
    "clip": 10,
    "i": 2,
    "text": "upgrading",
-   "start": 1484,
-   "end": 1492,
+   "start": 1472,
+   "end": 1480,
    "key": true
   },
   {
    "clip": 10,
    "i": 3,
    "text": "isn't",
-   "start": 1492,
-   "end": 1508,
+   "start": 1480,
+   "end": 1496,
    "key": false
   },
   {
    "clip": 10,
    "i": 4,
    "text": "just",
-   "start": 1508,
-   "end": 1511,
+   "start": 1496,
+   "end": 1499,
    "key": false
   },
   {
    "clip": 10,
    "i": 5,
    "text": "HDB",
-   "start": 1511,
-   "end": 1529,
+   "start": 1499,
+   "end": 1517,
    "key": true
   },
   {
    "clip": 10,
    "i": 6,
    "text": "to",
-   "start": 1529,
-   "end": 1532,
+   "start": 1517,
+   "end": 1520,
    "key": false
   },
   {
    "clip": 10,
    "i": 7,
    "text": "condo.",
-   "start": 1532,
-   "end": 1543,
+   "start": 1520,
+   "end": 1531,
    "key": true
   },
   {
    "clip": 10,
    "i": 8,
    "text": "It's",
-   "start": 1551,
-   "end": 1559,
+   "start": 1539,
+   "end": 1547,
    "key": false
   },
   {
    "clip": 10,
    "i": 9,
    "text": "about",
-   "start": 1559,
-   "end": 1563,
+   "start": 1547,
+   "end": 1551,
    "key": false
   },
   {
    "clip": 10,
    "i": 10,
    "text": "deciding",
-   "start": 1563,
-   "end": 1574,
+   "start": 1551,
+   "end": 1562,
    "key": false
   },
   {
    "clip": 10,
    "i": 11,
    "text": "where",
-   "start": 1574,
-   "end": 1585,
+   "start": 1562,
+   "end": 1573,
    "key": false
   },
   {
    "clip": 10,
    "i": 12,
    "text": "your",
-   "start": 1585,
-   "end": 1589,
+   "start": 1573,
+   "end": 1577,
    "key": false
   },
   {
    "clip": 10,
    "i": 13,
    "text": "equity",
-   "start": 1589,
-   "end": 1600,
+   "start": 1577,
+   "end": 1588,
    "key": true
   },
   {
    "clip": 10,
    "i": 14,
    "text": "can",
-   "start": 1600,
-   "end": 1607,
+   "start": 1588,
+   "end": 1595,
    "key": false
   },
   {
    "clip": 10,
    "i": 15,
    "text": "work",
-   "start": 1607,
-   "end": 1615,
+   "start": 1595,
+   "end": 1603,
    "key": false
   },
   {
    "clip": 10,
    "i": 16,
    "text": "harder",
-   "start": 1615,
-   "end": 1625,
+   "start": 1603,
+   "end": 1613,
    "key": true
   },
   {
    "clip": 10,
    "i": 17,
    "text": "somewhere",
-   "start": 1625,
-   "end": 1640,
+   "start": 1613,
+   "end": 1628,
    "key": false
   },
   {
    "clip": 10,
    "i": 18,
    "text": "else.",
-   "start": 1640,
-   "end": 1652,
+   "start": 1628,
+   "end": 1640,
    "key": false
   },
   {
    "clip": 11,
    "i": 0,
    "text": "So",
-   "start": 1657,
-   "end": 1662,
+   "start": 1645,
+   "end": 1650,
    "key": false
   },
   {
    "clip": 11,
    "i": 1,
    "text": "if",
-   "start": 1662,
-   "end": 1665,
+   "start": 1650,
+   "end": 1653,
    "key": false
   },
   {
    "clip": 11,
    "i": 2,
    "text": "you",
-   "start": 1664,
-   "end": 1668,
+   "start": 1652,
+   "end": 1656,
    "key": false
   },
   {
    "clip": 11,
    "i": 3,
    "text": "own",
-   "start": 1668,
-   "end": 1673,
+   "start": 1656,
+   "end": 1661,
    "key": false
   },
   {
    "clip": 11,
    "i": 4,
    "text": "an",
-   "start": 1673,
-   "end": 1676,
+   "start": 1661,
+   "end": 1664,
    "key": false
   },
   {
    "clip": 11,
    "i": 5,
    "text": "HDB",
-   "start": 1676,
-   "end": 1689,
+   "start": 1664,
+   "end": 1677,
    "key": true
   },
   {
    "clip": 11,
    "i": 6,
    "text": "and",
-   "start": 1689,
-   "end": 1693,
+   "start": 1677,
+   "end": 1681,
    "key": false
   },
   {
    "clip": 11,
    "i": 7,
    "text": "wondering",
-   "start": 1693,
-   "end": 1701,
+   "start": 1681,
+   "end": 1689,
    "key": false
   },
   {
    "clip": 11,
    "i": 8,
    "text": "if",
-   "start": 1701,
-   "end": 1709,
+   "start": 1689,
+   "end": 1697,
    "key": false
   },
   {
    "clip": 11,
    "i": 9,
    "text": "it",
-   "start": 1709,
-   "end": 1716,
+   "start": 1697,
+   "end": 1704,
    "key": false
   },
   {
    "clip": 11,
    "i": 10,
    "text": "has",
-   "start": 1716,
-   "end": 1723,
+   "start": 1704,
+   "end": 1711,
    "key": false
   },
   {
    "clip": 11,
    "i": 11,
    "text": "done",
-   "start": 1723,
-   "end": 1729,
+   "start": 1711,
+   "end": 1717,
    "key": false
   },
   {
    "clip": 11,
    "i": 12,
    "text": "its",
-   "start": 1729,
-   "end": 1734,
+   "start": 1717,
+   "end": 1722,
    "key": false
   },
   {
    "clip": 11,
    "i": 13,
    "text": "job?",
-   "start": 1734,
-   "end": 1744,
+   "start": 1722,
+   "end": 1732,
    "key": true
   },
   {
    "clip": 12,
    "i": 0,
    "text": "DM",
-   "start": 1747,
-   "end": 1757,
+   "start": 1735,
+   "end": 1745,
    "key": false
   },
   {
    "clip": 12,
    "i": 1,
    "text": "me",
-   "start": 1757,
-   "end": 1762,
+   "start": 1745,
+   "end": 1750,
    "key": false
   },
   {
    "clip": 12,
    "i": 2,
    "text": "\"HOME\"",
-   "start": 1762,
-   "end": 1771,
+   "start": 1750,
+   "end": 1759,
    "key": true
   },
   {
    "clip": 12,
    "i": 3,
    "text": "and",
-   "start": 1771,
-   "end": 1778,
+   "start": 1759,
+   "end": 1766,
    "key": false
   },
   {
    "clip": 12,
    "i": 4,
    "text": "I'll",
-   "start": 1778,
-   "end": 1784,
+   "start": 1766,
+   "end": 1772,
    "key": false
   },
   {
    "clip": 12,
    "i": 5,
    "text": "send",
-   "start": 1784,
-   "end": 1790,
+   "start": 1772,
+   "end": 1778,
    "key": false
   },
   {
    "clip": 12,
    "i": 6,
    "text": "you",
-   "start": 1790,
-   "end": 1794,
+   "start": 1778,
+   "end": 1782,
    "key": false
   },
   {
    "clip": 12,
    "i": 7,
    "text": "the",
-   "start": 1794,
-   "end": 1797,
+   "start": 1782,
+   "end": 1785,
    "key": false
   },
   {
    "clip": 12,
    "i": 8,
    "text": "exact",
-   "start": 1797,
-   "end": 1803,
+   "start": 1785,
+   "end": 1791,
    "key": false
   },
   {
    "clip": 12,
    "i": 9,
    "text": "three",
-   "start": 1803,
-   "end": 1813,
+   "start": 1791,
+   "end": 1801,
    "key": true
   },
   {
    "clip": 12,
    "i": 10,
    "text": "number",
-   "start": 1813,
-   "end": 1819,
+   "start": 1801,
+   "end": 1807,
    "key": false
   },
   {
    "clip": 12,
    "i": 11,
    "text": "checks",
-   "start": 1819,
-   "end": 1829,
+   "start": 1807,
+   "end": 1817,
    "key": false
   },
   {
    "clip": 12,
    "i": 12,
    "text": "that",
-   "start": 1829,
-   "end": 1837,
+   "start": 1817,
+   "end": 1825,
    "key": false
   },
   {
    "clip": 12,
    "i": 13,
    "text": "I",
-   "start": 1837,
-   "end": 1842,
+   "start": 1825,
+   "end": 1830,
    "key": false
   },
   {
    "clip": 12,
    "i": 14,
    "text": "use",
-   "start": 1842,
-   "end": 1849,
+   "start": 1830,
+   "end": 1837,
    "key": false
   },
   {
    "clip": 12,
    "i": 15,
    "text": "with",
-   "start": 1849,
-   "end": 1855,
+   "start": 1837,
+   "end": 1843,
    "key": false
   },
   {
    "clip": 12,
    "i": 16,
    "text": "all",
-   "start": 1855,
-   "end": 1861,
+   "start": 1843,
+   "end": 1849,
    "key": false
   },
   {
    "clip": 12,
    "i": 17,
    "text": "my",
-   "start": 1861,
-   "end": 1867,
+   "start": 1849,
+   "end": 1855,
    "key": false
   },
   {
    "clip": 12,
    "i": 18,
    "text": "clients.",
-   "start": 1867,
-   "end": 1877,
+   "start": 1855,
+   "end": 1865,
    "key": false
   }
  ],
@@ -1944,7 +1944,7 @@
   },
   {
    "start": 293,
-   "end": 326,
+   "end": 328,
    "words": [
     {
      "clip": 3,
@@ -1973,37 +1973,37 @@
    ]
   },
   {
-   "start": 326,
-   "end": 345,
+   "start": 329,
+   "end": 340,
    "words": [
     {
      "clip": 4,
      "i": 0,
      "text": "So,",
-     "start": 326,
-     "end": 336,
+     "start": 329,
+     "end": 340,
      "key": false
     }
    ]
   },
   {
-   "start": 345,
-   "end": 372,
+   "start": 340,
+   "end": 363,
    "words": [
     {
      "clip": 4,
      "i": 1,
      "text": "I",
-     "start": 345,
-     "end": 350,
+     "start": 340,
+     "end": 344,
      "key": false
     },
     {
      "clip": 4,
      "i": 2,
      "text": "check",
-     "start": 350,
-     "end": 359,
+     "start": 345,
+     "end": 355,
      "key": false
     },
     {
@@ -2011,1555 +2011,1555 @@
      "i": 3,
      "text": "three",
      "start": 359,
-     "end": 372,
+     "end": 362,
      "key": true
     }
    ]
   },
   {
-   "start": 372,
-   "end": 391,
+   "start": 363,
+   "end": 379,
    "words": [
     {
      "clip": 4,
      "i": 4,
      "text": "things.",
-     "start": 372,
-     "end": 382,
+     "start": 363,
+     "end": 377,
      "key": false
     }
    ]
   },
   {
-   "start": 391,
-   "end": 407,
+   "start": 379,
+   "end": 395,
    "words": [
     {
      "clip": 5,
      "i": 0,
      "text": "First,",
-     "start": 391,
-     "end": 399,
+     "start": 379,
+     "end": 387,
      "key": true
     }
    ]
   },
   {
-   "start": 407,
-   "end": 425,
+   "start": 395,
+   "end": 413,
    "words": [
     {
      "clip": 5,
      "i": 1,
      "text": "how",
-     "start": 407,
-     "end": 410,
+     "start": 395,
+     "end": 398,
      "key": false
     },
     {
      "clip": 5,
      "i": 2,
      "text": "much",
-     "start": 410,
-     "end": 417,
+     "start": 398,
+     "end": 405,
      "key": false
     },
     {
      "clip": 5,
      "i": 3,
      "text": "usable",
-     "start": 417,
-     "end": 425,
+     "start": 405,
+     "end": 413,
      "key": true
     }
    ]
   },
   {
-   "start": 425,
-   "end": 447,
+   "start": 413,
+   "end": 435,
    "words": [
     {
      "clip": 5,
      "i": 4,
      "text": "equity",
-     "start": 425,
-     "end": 436,
+     "start": 413,
+     "end": 424,
      "key": true
     },
     {
      "clip": 5,
      "i": 5,
      "text": "can",
-     "start": 436,
-     "end": 444,
+     "start": 424,
+     "end": 432,
      "key": false
     },
     {
      "clip": 5,
      "i": 6,
      "text": "they",
-     "start": 444,
-     "end": 447,
+     "start": 432,
+     "end": 435,
      "key": false
     }
    ]
   },
   {
-   "start": 447,
-   "end": 477,
+   "start": 435,
+   "end": 465,
    "words": [
     {
      "clip": 5,
      "i": 7,
      "text": "unlock",
-     "start": 447,
-     "end": 456,
+     "start": 435,
+     "end": 444,
      "key": false
     },
     {
      "clip": 5,
      "i": 8,
      "text": "after",
-     "start": 456,
-     "end": 471,
+     "start": 444,
+     "end": 459,
      "key": false
     },
     {
      "clip": 5,
      "i": 9,
      "text": "the",
-     "start": 471,
-     "end": 477,
+     "start": 459,
+     "end": 465,
      "key": false
     }
    ]
   },
   {
-   "start": 477,
-   "end": 498,
+   "start": 465,
+   "end": 486,
    "words": [
     {
      "clip": 5,
      "i": 10,
      "text": "loan,",
-     "start": 477,
-     "end": 486,
+     "start": 465,
+     "end": 474,
      "key": false
     }
    ]
   },
   {
-   "start": 498,
-   "end": 536,
+   "start": 486,
+   "end": 524,
    "words": [
     {
      "clip": 5,
      "i": 11,
      "text": "CPF",
-     "start": 498,
-     "end": 511,
+     "start": 486,
+     "end": 499,
      "key": true
     },
     {
      "clip": 5,
      "i": 12,
      "text": "refund",
-     "start": 511,
-     "end": 525,
+     "start": 499,
+     "end": 513,
      "key": true
     },
     {
      "clip": 5,
      "i": 13,
      "text": "and",
-     "start": 525,
-     "end": 536,
+     "start": 513,
+     "end": 524,
      "key": false
     }
    ]
   },
   {
-   "start": 536,
-   "end": 567,
+   "start": 524,
+   "end": 555,
    "words": [
     {
      "clip": 5,
      "i": 14,
      "text": "selling",
-     "start": 536,
-     "end": 548,
+     "start": 524,
+     "end": 536,
      "key": false
     },
     {
      "clip": 5,
      "i": 15,
      "text": "costs?",
-     "start": 548,
-     "end": 557,
+     "start": 536,
+     "end": 545,
      "key": false
     }
    ]
   },
   {
-   "start": 567,
-   "end": 586,
+   "start": 555,
+   "end": 574,
    "words": [
     {
      "clip": 6,
      "i": 0,
      "text": "Second,",
-     "start": 567,
-     "end": 579,
+     "start": 555,
+     "end": 567,
      "key": true
     }
    ]
   },
   {
-   "start": 586,
-   "end": 597,
+   "start": 574,
+   "end": 585,
    "words": [
     {
      "clip": 6,
      "i": 1,
      "text": "what",
-     "start": 586,
-     "end": 589,
+     "start": 574,
+     "end": 577,
      "key": false
     },
     {
      "clip": 6,
      "i": 2,
      "text": "monthly",
-     "start": 588,
-     "end": 597,
+     "start": 576,
+     "end": 585,
      "key": true
     }
    ]
   },
   {
-   "start": 597,
-   "end": 617,
+   "start": 585,
+   "end": 605,
    "words": [
     {
      "clip": 6,
      "i": 3,
      "text": "commitment",
-     "start": 597,
-     "end": 609,
+     "start": 585,
+     "end": 597,
      "key": false
     },
     {
      "clip": 6,
      "i": 4,
      "text": "could",
-     "start": 609,
-     "end": 617,
+     "start": 597,
+     "end": 605,
      "key": false
     }
    ]
   },
   {
-   "start": 617,
-   "end": 632,
+   "start": 605,
+   "end": 620,
    "words": [
     {
      "clip": 6,
      "i": 5,
      "text": "they",
-     "start": 617,
-     "end": 620,
+     "start": 605,
+     "end": 608,
      "key": false
     },
     {
      "clip": 6,
      "i": 6,
      "text": "comfortably",
-     "start": 620,
-     "end": 632,
+     "start": 608,
+     "end": 620,
      "key": false
     }
    ]
   },
   {
-   "start": 632,
-   "end": 665,
+   "start": 620,
+   "end": 653,
    "words": [
     {
      "clip": 6,
      "i": 7,
      "text": "sustain",
-     "start": 632,
-     "end": 647,
+     "start": 620,
+     "end": 635,
      "key": false
     },
     {
      "clip": 6,
      "i": 8,
      "text": "while",
-     "start": 647,
-     "end": 656,
+     "start": 635,
+     "end": 644,
      "key": false
     },
     {
      "clip": 6,
      "i": 9,
      "text": "still",
-     "start": 656,
-     "end": 665,
+     "start": 644,
+     "end": 653,
      "key": false
     }
    ]
   },
   {
-   "start": 665,
-   "end": 695,
+   "start": 653,
+   "end": 683,
    "words": [
     {
      "clip": 6,
      "i": 10,
      "text": "keeping",
-     "start": 665,
-     "end": 677,
+     "start": 653,
+     "end": 665,
      "key": false
     },
     {
      "clip": 6,
      "i": 11,
      "text": "a",
-     "start": 677,
-     "end": 688,
+     "start": 665,
+     "end": 676,
      "key": false
     },
     {
      "clip": 6,
      "i": 12,
      "text": "healthy",
-     "start": 688,
-     "end": 695,
+     "start": 676,
+     "end": 683,
      "key": false
     }
    ]
   },
   {
-   "start": 695,
-   "end": 714,
+   "start": 683,
+   "end": 702,
    "words": [
     {
      "clip": 6,
      "i": 13,
      "text": "buffer?",
-     "start": 695,
-     "end": 706,
+     "start": 683,
+     "end": 694,
      "key": true
     }
    ]
   },
   {
-   "start": 714,
-   "end": 740,
+   "start": 702,
+   "end": 728,
    "words": [
     {
      "clip": 7,
      "i": 0,
      "text": "Third,",
-     "start": 714,
-     "end": 728,
+     "start": 702,
+     "end": 716,
      "key": true
     }
    ]
   },
   {
-   "start": 742,
-   "end": 780,
+   "start": 730,
+   "end": 768,
    "words": [
     {
      "clip": 7,
      "i": 1,
      "text": "if",
-     "start": 742,
-     "end": 745,
+     "start": 730,
+     "end": 733,
      "key": false
     },
     {
      "clip": 7,
      "i": 2,
      "text": "they",
-     "start": 744,
-     "end": 750,
+     "start": 732,
+     "end": 738,
      "key": false
     },
     {
      "clip": 7,
      "i": 3,
      "text": "reposition,",
-     "start": 750,
-     "end": 768,
+     "start": 738,
+     "end": 756,
      "key": false
     }
    ]
   },
   {
-   "start": 781,
-   "end": 793,
+   "start": 769,
+   "end": 781,
    "words": [
     {
      "clip": 7,
      "i": 4,
      "text": "what",
-     "start": 781,
-     "end": 785,
+     "start": 769,
+     "end": 773,
      "key": false
     },
     {
      "clip": 7,
      "i": 5,
      "text": "would",
-     "start": 785,
-     "end": 789,
+     "start": 773,
+     "end": 777,
      "key": false
     },
     {
      "clip": 7,
      "i": 6,
      "text": "the",
-     "start": 789,
-     "end": 793,
+     "start": 777,
+     "end": 781,
      "key": false
     }
    ]
   },
   {
-   "start": 793,
-   "end": 819,
+   "start": 781,
+   "end": 807,
    "words": [
     {
      "clip": 7,
      "i": 7,
      "text": "next",
-     "start": 793,
-     "end": 798,
+     "start": 781,
+     "end": 786,
      "key": false
     },
     {
      "clip": 7,
      "i": 8,
      "text": "property",
-     "start": 798,
-     "end": 809,
+     "start": 786,
+     "end": 797,
      "key": false
     },
     {
      "clip": 7,
      "i": 9,
      "text": "need",
-     "start": 809,
-     "end": 819,
+     "start": 797,
+     "end": 807,
      "key": false
     }
    ]
   },
   {
-   "start": 819,
-   "end": 837,
+   "start": 807,
+   "end": 825,
    "words": [
     {
      "clip": 7,
      "i": 10,
      "text": "to",
-     "start": 819,
-     "end": 823,
+     "start": 807,
+     "end": 811,
      "key": false
     },
     {
      "clip": 7,
      "i": 11,
      "text": "achieve",
-     "start": 823,
-     "end": 831,
+     "start": 811,
+     "end": 819,
      "key": false
     },
     {
      "clip": 7,
      "i": 12,
      "text": "at",
-     "start": 831,
-     "end": 837,
+     "start": 819,
+     "end": 825,
      "key": false
     }
    ]
   },
   {
-   "start": 837,
-   "end": 868,
+   "start": 825,
+   "end": 856,
    "words": [
     {
      "clip": 7,
      "i": 13,
      "text": "exit",
-     "start": 837,
-     "end": 848,
+     "start": 825,
+     "end": 836,
      "key": true
     },
     {
      "clip": 7,
      "i": 14,
      "text": "for",
-     "start": 848,
-     "end": 864,
+     "start": 836,
+     "end": 852,
      "key": false
     },
     {
      "clip": 7,
      "i": 15,
      "text": "the",
-     "start": 864,
-     "end": 868,
+     "start": 852,
+     "end": 856,
      "key": false
     }
    ]
   },
   {
-   "start": 868,
-   "end": 889,
+   "start": 856,
+   "end": 877,
    "words": [
     {
      "clip": 7,
      "i": 16,
      "text": "move",
-     "start": 868,
-     "end": 877,
+     "start": 856,
+     "end": 865,
      "key": false
     },
     {
      "clip": 7,
      "i": 17,
      "text": "to",
-     "start": 877,
-     "end": 884,
+     "start": 865,
+     "end": 872,
      "key": false
     },
     {
      "clip": 7,
      "i": 18,
      "text": "be",
-     "start": 884,
-     "end": 889,
+     "start": 872,
+     "end": 877,
      "key": false
     }
    ]
   },
   {
-   "start": 889,
-   "end": 909,
+   "start": 877,
+   "end": 897,
    "words": [
     {
      "clip": 7,
      "i": 19,
      "text": "worthwhile?",
-     "start": 889,
-     "end": 900,
+     "start": 877,
+     "end": 888,
      "key": true
     }
    ]
   },
   {
-   "start": 909,
-   "end": 929,
+   "start": 897,
+   "end": 917,
    "words": [
     {
      "clip": 8,
      "i": 0,
      "text": "Only",
-     "start": 909,
-     "end": 918,
+     "start": 897,
+     "end": 906,
      "key": false
     },
     {
      "clip": 8,
      "i": 1,
      "text": "after",
-     "start": 918,
-     "end": 924,
+     "start": 906,
+     "end": 912,
      "key": false
     },
     {
      "clip": 8,
      "i": 2,
      "text": "those",
-     "start": 924,
-     "end": 929,
+     "start": 912,
+     "end": 917,
      "key": false
     }
    ]
   },
   {
-   "start": 929,
-   "end": 963,
+   "start": 917,
+   "end": 951,
    "words": [
     {
      "clip": 8,
      "i": 3,
      "text": "numbers",
-     "start": 929,
-     "end": 938,
+     "start": 917,
+     "end": 926,
      "key": true
     },
     {
      "clip": 8,
      "i": 4,
      "text": "worked",
-     "start": 938,
-     "end": 953,
+     "start": 926,
+     "end": 941,
      "key": false
     },
     {
      "clip": 8,
      "i": 5,
      "text": "did",
-     "start": 953,
-     "end": 963,
+     "start": 941,
+     "end": 951,
      "key": false
     }
    ]
   },
   {
-   "start": 963,
-   "end": 983,
+   "start": 951,
+   "end": 971,
    "words": [
     {
      "clip": 8,
      "i": 6,
      "text": "we",
-     "start": 963,
-     "end": 968,
+     "start": 951,
+     "end": 956,
      "key": false
     },
     {
      "clip": 8,
      "i": 7,
      "text": "start",
-     "start": 968,
-     "end": 975,
+     "start": 956,
+     "end": 963,
      "key": false
     },
     {
      "clip": 8,
      "i": 8,
      "text": "looking",
-     "start": 975,
-     "end": 983,
+     "start": 963,
+     "end": 971,
      "key": false
     }
    ]
   },
   {
-   "start": 983,
-   "end": 1017,
+   "start": 971,
+   "end": 1005,
    "words": [
     {
      "clip": 8,
      "i": 9,
      "text": "at",
-     "start": 983,
-     "end": 994,
+     "start": 971,
+     "end": 982,
      "key": false
     },
     {
      "clip": 8,
      "i": 10,
      "text": "properties.",
-     "start": 994,
-     "end": 1006,
+     "start": 982,
+     "end": 994,
      "key": true
     }
    ]
   },
   {
-   "start": 1017,
-   "end": 1042,
+   "start": 1005,
+   "end": 1030,
    "words": [
     {
      "clip": 9,
      "i": 0,
      "text": "Then",
-     "start": 1017,
-     "end": 1025,
+     "start": 1005,
+     "end": 1013,
      "key": false
     },
     {
      "clip": 9,
      "i": 1,
      "text": "we",
-     "start": 1025,
-     "end": 1030,
+     "start": 1013,
+     "end": 1018,
      "key": false
     },
     {
      "clip": 9,
      "i": 2,
      "text": "compared",
-     "start": 1030,
-     "end": 1042,
+     "start": 1018,
+     "end": 1030,
      "key": false
     }
    ]
   },
   {
-   "start": 1042,
-   "end": 1079,
+   "start": 1030,
+   "end": 1067,
    "words": [
     {
      "clip": 9,
      "i": 3,
      "text": "entry",
-     "start": 1042,
-     "end": 1054,
+     "start": 1030,
+     "end": 1042,
      "key": false
     },
     {
      "clip": 9,
      "i": 4,
      "text": "prices,",
-     "start": 1054,
-     "end": 1069,
+     "start": 1042,
+     "end": 1057,
      "key": false
     }
    ]
   },
   {
-   "start": 1079,
-   "end": 1090,
+   "start": 1067,
+   "end": 1078,
    "words": [
     {
      "clip": 9,
      "i": 5,
      "text": "surrounding",
-     "start": 1079,
-     "end": 1090,
+     "start": 1067,
+     "end": 1078,
      "key": false
     }
    ]
   },
   {
-   "start": 1090,
-   "end": 1120,
+   "start": 1078,
+   "end": 1108,
    "words": [
     {
      "clip": 9,
      "i": 6,
      "text": "transactions,",
-     "start": 1090,
-     "end": 1108,
+     "start": 1078,
+     "end": 1096,
      "key": false
     }
    ]
   },
   {
-   "start": 1121,
-   "end": 1138,
+   "start": 1109,
+   "end": 1126,
    "words": [
     {
      "clip": 9,
      "i": 7,
      "text": "unit-specific",
-     "start": 1121,
-     "end": 1138,
+     "start": 1109,
+     "end": 1126,
      "key": false
     }
    ]
   },
   {
-   "start": 1138,
-   "end": 1190,
+   "start": 1126,
+   "end": 1178,
    "words": [
     {
      "clip": 9,
      "i": 8,
      "text": "factors",
-     "start": 1138,
-     "end": 1157,
+     "start": 1126,
+     "end": 1145,
      "key": false
     },
     {
      "clip": 9,
      "i": 9,
      "text": "and",
-     "start": 1157,
-     "end": 1180,
+     "start": 1145,
+     "end": 1168,
      "key": false
     },
     {
      "clip": 9,
      "i": 10,
      "text": "future",
-     "start": 1180,
-     "end": 1190,
+     "start": 1168,
+     "end": 1178,
      "key": false
     }
    ]
   },
   {
-   "start": 1190,
-   "end": 1224,
+   "start": 1178,
+   "end": 1212,
    "words": [
     {
      "clip": 9,
      "i": 11,
      "text": "exit",
-     "start": 1190,
-     "end": 1199,
+     "start": 1178,
+     "end": 1187,
      "key": true
     },
     {
      "clip": 9,
      "i": 12,
      "text": "potential.",
-     "start": 1199,
-     "end": 1212,
+     "start": 1187,
+     "end": 1200,
      "key": false
     }
    ]
   },
   {
-   "start": 1240,
-   "end": 1265,
+   "start": 1228,
+   "end": 1253,
    "words": [
     {
      "clip": 9,
      "i": 13,
      "text": "Eventually,",
-     "start": 1240,
-     "end": 1253,
+     "start": 1228,
+     "end": 1241,
      "key": false
     }
    ]
   },
   {
-   "start": 1265,
-   "end": 1289,
+   "start": 1253,
+   "end": 1277,
    "words": [
     {
      "clip": 9,
      "i": 14,
      "text": "we",
-     "start": 1265,
-     "end": 1274,
+     "start": 1253,
+     "end": 1262,
      "key": false
     },
     {
      "clip": 9,
      "i": 15,
      "text": "found",
-     "start": 1274,
-     "end": 1282,
+     "start": 1262,
+     "end": 1270,
      "key": false
     },
     {
      "clip": 9,
      "i": 16,
      "text": "one",
-     "start": 1282,
-     "end": 1289,
+     "start": 1270,
+     "end": 1277,
      "key": false
     }
    ]
   },
   {
-   "start": 1289,
-   "end": 1310,
+   "start": 1277,
+   "end": 1298,
    "words": [
     {
      "clip": 9,
      "i": 17,
      "text": "where",
-     "start": 1289,
-     "end": 1297,
+     "start": 1277,
+     "end": 1285,
      "key": false
     },
     {
      "clip": 9,
      "i": 18,
      "text": "the",
-     "start": 1297,
-     "end": 1300,
+     "start": 1285,
+     "end": 1288,
      "key": false
     },
     {
      "clip": 9,
      "i": 19,
      "text": "entry",
-     "start": 1300,
-     "end": 1310,
+     "start": 1288,
+     "end": 1298,
      "key": false
     }
    ]
   },
   {
-   "start": 1310,
-   "end": 1340,
+   "start": 1298,
+   "end": 1328,
    "words": [
     {
      "clip": 9,
      "i": 20,
      "text": "made",
-     "start": 1310,
-     "end": 1319,
+     "start": 1298,
+     "end": 1307,
      "key": false
     },
     {
      "clip": 9,
      "i": 21,
      "text": "sense.",
-     "start": 1319,
-     "end": 1328,
+     "start": 1307,
+     "end": 1316,
      "key": false
     }
    ]
   },
   {
-   "start": 1342,
-   "end": 1364,
+   "start": 1330,
+   "end": 1352,
    "words": [
     {
      "clip": 9,
      "i": 22,
      "text": "The",
-     "start": 1342,
-     "end": 1345,
+     "start": 1330,
+     "end": 1333,
      "key": false
     },
     {
      "clip": 9,
      "i": 23,
      "text": "growth",
-     "start": 1345,
-     "end": 1354,
+     "start": 1333,
+     "end": 1342,
      "key": true
     },
     {
      "clip": 9,
      "i": 24,
      "text": "drivers",
-     "start": 1354,
-     "end": 1364,
+     "start": 1342,
+     "end": 1352,
      "key": false
     }
    ]
   },
   {
-   "start": 1364,
-   "end": 1396,
+   "start": 1352,
+   "end": 1384,
    "words": [
     {
      "clip": 9,
      "i": 25,
      "text": "were",
-     "start": 1364,
-     "end": 1371,
+     "start": 1352,
+     "end": 1359,
      "key": false
     },
     {
      "clip": 9,
      "i": 26,
      "text": "clear",
-     "start": 1371,
-     "end": 1379,
+     "start": 1359,
+     "end": 1367,
      "key": false
     },
     {
      "clip": 9,
      "i": 27,
      "text": "and",
-     "start": 1379,
-     "end": 1396,
+     "start": 1367,
+     "end": 1384,
      "key": false
     }
    ]
   },
   {
-   "start": 1396,
-   "end": 1427,
+   "start": 1384,
+   "end": 1415,
    "words": [
     {
      "clip": 9,
      "i": 28,
      "text": "the",
-     "start": 1396,
-     "end": 1401,
+     "start": 1384,
+     "end": 1389,
      "key": false
     },
     {
      "clip": 9,
      "i": 29,
      "text": "financing",
-     "start": 1401,
-     "end": 1413,
+     "start": 1389,
+     "end": 1401,
      "key": false
     },
     {
      "clip": 9,
      "i": 30,
      "text": "still",
-     "start": 1413,
-     "end": 1427,
+     "start": 1401,
+     "end": 1415,
      "key": false
     }
    ]
   },
   {
-   "start": 1427,
-   "end": 1440,
+   "start": 1415,
+   "end": 1428,
    "words": [
     {
      "clip": 9,
      "i": 31,
      "text": "remained",
-     "start": 1427,
-     "end": 1440,
+     "start": 1415,
+     "end": 1428,
      "key": false
     }
    ]
   },
   {
-   "start": 1440,
-   "end": 1466,
+   "start": 1428,
+   "end": 1454,
    "words": [
     {
      "clip": 9,
      "i": 32,
      "text": "comfortable.",
-     "start": 1440,
-     "end": 1454,
+     "start": 1428,
+     "end": 1442,
      "key": true
     }
    ]
   },
   {
-   "start": 1473,
-   "end": 1492,
+   "start": 1461,
+   "end": 1480,
    "words": [
     {
      "clip": 10,
      "i": 0,
      "text": "That's",
-     "start": 1473,
-     "end": 1481,
+     "start": 1461,
+     "end": 1469,
      "key": false
     },
     {
      "clip": 10,
      "i": 1,
      "text": "why",
-     "start": 1481,
-     "end": 1484,
+     "start": 1469,
+     "end": 1472,
      "key": false
     },
     {
      "clip": 10,
      "i": 2,
      "text": "upgrading",
-     "start": 1484,
-     "end": 1492,
+     "start": 1472,
+     "end": 1480,
      "key": true
     }
    ]
   },
   {
-   "start": 1492,
-   "end": 1529,
+   "start": 1480,
+   "end": 1517,
    "words": [
     {
      "clip": 10,
      "i": 3,
      "text": "isn't",
-     "start": 1492,
-     "end": 1508,
+     "start": 1480,
+     "end": 1496,
      "key": false
     },
     {
      "clip": 10,
      "i": 4,
      "text": "just",
-     "start": 1508,
-     "end": 1511,
+     "start": 1496,
+     "end": 1499,
      "key": false
     },
     {
      "clip": 10,
      "i": 5,
      "text": "HDB",
-     "start": 1511,
-     "end": 1529,
+     "start": 1499,
+     "end": 1517,
      "key": true
     }
    ]
   },
   {
-   "start": 1529,
-   "end": 1551,
+   "start": 1517,
+   "end": 1539,
    "words": [
     {
      "clip": 10,
      "i": 6,
      "text": "to",
-     "start": 1529,
-     "end": 1532,
+     "start": 1517,
+     "end": 1520,
      "key": false
     },
     {
      "clip": 10,
      "i": 7,
      "text": "condo.",
-     "start": 1532,
-     "end": 1543,
+     "start": 1520,
+     "end": 1531,
      "key": true
     }
    ]
   },
   {
-   "start": 1551,
-   "end": 1574,
+   "start": 1539,
+   "end": 1562,
    "words": [
     {
      "clip": 10,
      "i": 8,
      "text": "It's",
-     "start": 1551,
-     "end": 1559,
+     "start": 1539,
+     "end": 1547,
      "key": false
     },
     {
      "clip": 10,
      "i": 9,
      "text": "about",
-     "start": 1559,
-     "end": 1563,
+     "start": 1547,
+     "end": 1551,
      "key": false
     },
     {
      "clip": 10,
      "i": 10,
      "text": "deciding",
-     "start": 1563,
-     "end": 1574,
+     "start": 1551,
+     "end": 1562,
      "key": false
     }
    ]
   },
   {
-   "start": 1574,
-   "end": 1600,
+   "start": 1562,
+   "end": 1588,
    "words": [
     {
      "clip": 10,
      "i": 11,
      "text": "where",
-     "start": 1574,
-     "end": 1585,
+     "start": 1562,
+     "end": 1573,
      "key": false
     },
     {
      "clip": 10,
      "i": 12,
      "text": "your",
-     "start": 1585,
-     "end": 1589,
+     "start": 1573,
+     "end": 1577,
      "key": false
     },
     {
      "clip": 10,
      "i": 13,
      "text": "equity",
-     "start": 1589,
-     "end": 1600,
+     "start": 1577,
+     "end": 1588,
      "key": true
     }
    ]
   },
   {
-   "start": 1600,
-   "end": 1625,
+   "start": 1588,
+   "end": 1613,
    "words": [
     {
      "clip": 10,
      "i": 14,
      "text": "can",
-     "start": 1600,
-     "end": 1607,
+     "start": 1588,
+     "end": 1595,
      "key": false
     },
     {
      "clip": 10,
      "i": 15,
      "text": "work",
-     "start": 1607,
-     "end": 1615,
+     "start": 1595,
+     "end": 1603,
      "key": false
     },
     {
      "clip": 10,
      "i": 16,
      "text": "harder",
-     "start": 1615,
-     "end": 1625,
+     "start": 1603,
+     "end": 1613,
      "key": true
     }
    ]
   },
   {
-   "start": 1625,
-   "end": 1657,
+   "start": 1613,
+   "end": 1645,
    "words": [
     {
      "clip": 10,
      "i": 17,
      "text": "somewhere",
-     "start": 1625,
-     "end": 1640,
+     "start": 1613,
+     "end": 1628,
      "key": false
     },
     {
      "clip": 10,
      "i": 18,
      "text": "else.",
-     "start": 1640,
-     "end": 1652,
+     "start": 1628,
+     "end": 1640,
      "key": false
     }
    ]
   },
   {
-   "start": 1657,
-   "end": 1668,
+   "start": 1645,
+   "end": 1656,
    "words": [
     {
      "clip": 11,
      "i": 0,
      "text": "So",
-     "start": 1657,
-     "end": 1662,
+     "start": 1645,
+     "end": 1650,
      "key": false
     },
     {
      "clip": 11,
      "i": 1,
      "text": "if",
-     "start": 1662,
-     "end": 1665,
+     "start": 1650,
+     "end": 1653,
      "key": false
     },
     {
      "clip": 11,
      "i": 2,
      "text": "you",
-     "start": 1664,
-     "end": 1668,
+     "start": 1652,
+     "end": 1656,
      "key": false
     }
    ]
   },
   {
-   "start": 1668,
-   "end": 1689,
+   "start": 1656,
+   "end": 1677,
    "words": [
     {
      "clip": 11,
      "i": 3,
      "text": "own",
-     "start": 1668,
-     "end": 1673,
+     "start": 1656,
+     "end": 1661,
      "key": false
     },
     {
      "clip": 11,
      "i": 4,
      "text": "an",
-     "start": 1673,
-     "end": 1676,
+     "start": 1661,
+     "end": 1664,
      "key": false
     },
     {
      "clip": 11,
      "i": 5,
      "text": "HDB",
-     "start": 1676,
-     "end": 1689,
+     "start": 1664,
+     "end": 1677,
      "key": true
     }
    ]
   },
   {
-   "start": 1689,
-   "end": 1709,
+   "start": 1677,
+   "end": 1697,
    "words": [
     {
      "clip": 11,
      "i": 6,
      "text": "and",
-     "start": 1689,
-     "end": 1693,
+     "start": 1677,
+     "end": 1681,
      "key": false
     },
     {
      "clip": 11,
      "i": 7,
      "text": "wondering",
-     "start": 1693,
-     "end": 1701,
+     "start": 1681,
+     "end": 1689,
      "key": false
     },
     {
      "clip": 11,
      "i": 8,
      "text": "if",
-     "start": 1701,
-     "end": 1709,
+     "start": 1689,
+     "end": 1697,
      "key": false
     }
    ]
   },
   {
-   "start": 1709,
-   "end": 1729,
+   "start": 1697,
+   "end": 1717,
    "words": [
     {
      "clip": 11,
      "i": 9,
      "text": "it",
-     "start": 1709,
-     "end": 1716,
+     "start": 1697,
+     "end": 1704,
      "key": false
     },
     {
      "clip": 11,
      "i": 10,
      "text": "has",
-     "start": 1716,
-     "end": 1723,
+     "start": 1704,
+     "end": 1711,
      "key": false
     },
     {
      "clip": 11,
      "i": 11,
      "text": "done",
-     "start": 1723,
-     "end": 1729,
+     "start": 1711,
+     "end": 1717,
      "key": false
     }
    ]
   },
   {
-   "start": 1729,
-   "end": 1747,
+   "start": 1717,
+   "end": 1735,
    "words": [
     {
      "clip": 11,
      "i": 12,
      "text": "its",
-     "start": 1729,
-     "end": 1734,
+     "start": 1717,
+     "end": 1722,
      "key": false
     },
     {
      "clip": 11,
      "i": 13,
      "text": "job?",
-     "start": 1734,
-     "end": 1744,
+     "start": 1722,
+     "end": 1732,
      "key": true
     }
    ]
   },
   {
-   "start": 1747,
-   "end": 1771,
+   "start": 1735,
+   "end": 1759,
    "words": [
     {
      "clip": 12,
      "i": 0,
      "text": "DM",
-     "start": 1747,
-     "end": 1757,
+     "start": 1735,
+     "end": 1745,
      "key": false
     },
     {
      "clip": 12,
      "i": 1,
      "text": "me",
-     "start": 1757,
-     "end": 1762,
+     "start": 1745,
+     "end": 1750,
      "key": false
     },
     {
      "clip": 12,
      "i": 2,
      "text": "\"HOME\"",
-     "start": 1762,
-     "end": 1771,
+     "start": 1750,
+     "end": 1759,
      "key": true
     }
    ]
   },
   {
-   "start": 1771,
-   "end": 1790,
+   "start": 1759,
+   "end": 1778,
    "words": [
     {
      "clip": 12,
      "i": 3,
      "text": "and",
-     "start": 1771,
-     "end": 1778,
+     "start": 1759,
+     "end": 1766,
      "key": false
     },
     {
      "clip": 12,
      "i": 4,
      "text": "I'll",
-     "start": 1778,
-     "end": 1784,
+     "start": 1766,
+     "end": 1772,
      "key": false
     },
     {
      "clip": 12,
      "i": 5,
      "text": "send",
-     "start": 1784,
-     "end": 1790,
+     "start": 1772,
+     "end": 1778,
      "key": false
     }
    ]
   },
   {
-   "start": 1790,
-   "end": 1803,
+   "start": 1778,
+   "end": 1791,
    "words": [
     {
      "clip": 12,
      "i": 6,
      "text": "you",
-     "start": 1790,
-     "end": 1794,
+     "start": 1778,
+     "end": 1782,
      "key": false
     },
     {
      "clip": 12,
      "i": 7,
      "text": "the",
-     "start": 1794,
-     "end": 1797,
+     "start": 1782,
+     "end": 1785,
      "key": false
     },
     {
      "clip": 12,
      "i": 8,
      "text": "exact",
-     "start": 1797,
-     "end": 1803,
+     "start": 1785,
+     "end": 1791,
      "key": false
     }
    ]
   },
   {
-   "start": 1803,
-   "end": 1829,
+   "start": 1791,
+   "end": 1817,
    "words": [
     {
      "clip": 12,
      "i": 9,
      "text": "three",
-     "start": 1803,
-     "end": 1813,
+     "start": 1791,
+     "end": 1801,
      "key": true
     },
     {
      "clip": 12,
      "i": 10,
      "text": "number",
-     "start": 1813,
-     "end": 1819,
+     "start": 1801,
+     "end": 1807,
      "key": false
     },
     {
      "clip": 12,
      "i": 11,
      "text": "checks",
-     "start": 1819,
-     "end": 1829,
+     "start": 1807,
+     "end": 1817,
      "key": false
     }
    ]
   },
   {
-   "start": 1829,
-   "end": 1849,
+   "start": 1817,
+   "end": 1837,
    "words": [
     {
      "clip": 12,
      "i": 12,
      "text": "that",
-     "start": 1829,
-     "end": 1837,
+     "start": 1817,
+     "end": 1825,
      "key": false
     },
     {
      "clip": 12,
      "i": 13,
      "text": "I",
-     "start": 1837,
-     "end": 1842,
+     "start": 1825,
+     "end": 1830,
      "key": false
     },
     {
      "clip": 12,
      "i": 14,
      "text": "use",
-     "start": 1842,
-     "end": 1849,
+     "start": 1830,
+     "end": 1837,
      "key": false
     }
    ]
   },
   {
-   "start": 1849,
-   "end": 1867,
+   "start": 1837,
+   "end": 1855,
    "words": [
     {
      "clip": 12,
      "i": 15,
      "text": "with",
-     "start": 1849,
-     "end": 1855,
+     "start": 1837,
+     "end": 1843,
      "key": false
     },
     {
      "clip": 12,
      "i": 16,
      "text": "all",
-     "start": 1855,
-     "end": 1861,
+     "start": 1843,
+     "end": 1849,
      "key": false
     },
     {
      "clip": 12,
      "i": 17,
      "text": "my",
-     "start": 1861,
-     "end": 1867,
+     "start": 1849,
+     "end": 1855,
      "key": false
     }
    ]
   },
   {
-   "start": 1867,
-   "end": 1887,
+   "start": 1855,
+   "end": 1875,
    "words": [
     {
      "clip": 12,
      "i": 18,
      "text": "clients.",
-     "start": 1867,
-     "end": 1877,
+     "start": 1855,
+     "end": 1865,
      "key": false
     }
    ]

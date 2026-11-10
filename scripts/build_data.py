@@ -19,11 +19,25 @@ timeline, words_out = [], []
 t = 0
 for clip in edit["aroll"]:
     cid = str(clip["id"])
-    dur_f = round((clip["out"] - clip["in"]) * FPS)
+    cuts = [c for c in clip.get("cuts", [])]
+    removed = sum(b - a for a, b in cuts)
+
+    def to_clip(t):  # source time -> time inside the trimmed clip (with internal cuts removed)
+        t = min(max(t, clip["in"]), clip["out"])
+        for a, b in cuts:
+            if t >= b:
+                t -= b - a
+            elif t > a:
+                t = a
+        return t - clip["in"]
+
+    dur_f = round((clip["out"] - clip["in"] - removed) * FPS)
     start_f = t
     timeline.append({"id": clip["id"], "src": f"clips/a{clip['id']}.mp4", "from": start_f,
                      "dur": dur_f, "zoom": clip["zoom"], "voiceover": clip.get("voiceover", False)})
-    words = raw[cid]["words"]
+    words = [dict(w) for w in raw[cid]["words"]]
+    for w, (ws, we) in zip(words, edit.get("word_times", {}).get(cid, [])):
+        w["s"], w["e"] = ws, we
     corr = edit["corrections"].get(cid, {})
     fixed = []
     for i, w in enumerate(words):
@@ -36,8 +50,8 @@ for clip in edit["aroll"]:
         for k, p in enumerate(parts):
             fixed.append({"w": p, "s": w["s"] + k * span, "e": w["s"] + (k + 1) * span})
     for i, w in enumerate(fixed):
-        s = max(w["s"], clip["in"]) - clip["in"]
-        e = min(w["e"], clip["out"]) - clip["in"]
+        s = to_clip(w["s"])
+        e = to_clip(w["e"])
         bare = re.sub(r"[^a-z0-9]", "", w["w"].lower())
         words_out.append({"clip": clip["id"], "i": i, "text": w["w"],
                           "start": round(start_f + s * FPS), "end": max(round(start_f + e * FPS), round(start_f + s * FPS) + 3),
